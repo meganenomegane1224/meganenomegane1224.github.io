@@ -10,7 +10,7 @@ h1 {
     h1{
         background-color: red;
     }
-    p{
+    a{
         background-color: blue;
     }
 }
@@ -20,7 +20,7 @@ h1 {
     h1{
         background-color: blue;
     }
-    p{
+    a{
         background-color: red;
     }
 }
