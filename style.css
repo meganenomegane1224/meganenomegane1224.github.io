@@ -5,22 +5,24 @@ h1 {
     background-color: red;
 }
 
-@media (max-width: 200px)
+@media (min-width: 200px)
 {
-    h1{
+    h1 {
         background-color: red;
     }
-    a{
+
+    a {
         background-color: blue;
     }
 }
 
-@media (max-width: 200px)
+@media (max-width: 600px)
 {
-    h1{
+    h1 {
         background-color: blue;
     }
-    a{
+
+    a {
         background-color: red;
     }
 }
