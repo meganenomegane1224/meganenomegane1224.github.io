@@ -5,7 +5,11 @@ h1 {
     background-color: red;
 }
 
-@media (min-width: 600px)
+a {
+    color: white;
+}
+
+@media (min-width: 200px)
 {
     h1 {
         background-color: red;
@@ -16,7 +20,7 @@ h1 {
     }
 }
 
-@media (max-width: 200px)
+@media (max-width: 600px)
 {
     h1 {
         background-color: blue;
@@ -25,4 +29,8 @@ h1 {
     a {
         background-color: red;
     }
+}
+
+.sizeUp {
+    font-size: 40px;
 }
